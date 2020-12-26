@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    padding: 5% 12%;
+}
+
+.footer__section {
+    margin: 4% 0%;
+}
+
+.footer__line {
+    content: '';
+    border-bottom: 1px solid #332E2A;
+    margin-top: 20px;
+}
+
+.footer__social {
+    display: inline-flex;
+    margin-top: 25px;
+}
+
+.footer__icon {
+    margin: 4px 6px;
+}
+
+.footer__copyright {
+    display: inline-flex;
+    margin-top: 12px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .footer {
+        padding: 10% 15%;
+    }
+}

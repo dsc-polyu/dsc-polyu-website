@@ -1,0 +1,40 @@
+.faq {
+    width: 100%;
+}
+
+.faq__subheader {
+    text-align: right;
+    padding: 3% 8%;
+}
+
+.faq__body {
+    height: fit-content;
+    padding: 8% 17%;
+}
+
+.faq__topic {
+    width: 100%;
+    padding: 6% 8% 4% 8%;
+    margin-bottom: 5%;
+
+    background-color: white;
+    box-shadow: rgba(51, 46, 42, 0.25) 0px 3px 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .faq__subheader {
+        text-align: right;
+        padding: 10% 8%;
+        background-color: #F8F8F8;
+    }
+
+    .faq__body {
+        padding: 0% 10%;
+    }
+
+    .faq__topic {
+        padding: 10% 12%;
+        margin-bottom: 10%;
+    }
+}

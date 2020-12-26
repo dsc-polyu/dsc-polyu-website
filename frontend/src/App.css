@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #332E2A;
+    line-height: 1.75em;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: large;
+    font-weight: 600;
+    line-height: 1.5em;
+
+    margin-bottom: 25px;
+}
+
+h4 {
+    font-size: large;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: medium;
+    font-weight: 600;
+    line-height: 2em;
+}
+
+h6 {
+    font-size: large;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+p {
+    font-size: medium;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #332E2A;
+}
+
+a:visited {
+    color: #332E2A;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #B03E30;
+}
+
+a:active {
+    color: #332E2A;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.hero {
+    padding: 12% 10% 4% 10%;
+}
+
+.triangle {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.grey-background {
+    background-color: #F8F8F8;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .hero {
+        padding: 20% 10% 8% 10%;
+    }
+}

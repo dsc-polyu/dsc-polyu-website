@@ -1,0 +1,317 @@
+.home__hero {
+    padding: 29% 8% 2% 8%;
+}
+
+.home__subtitle {
+    color: #B03E30;
+    font-size: 42px;
+    margin-top: 12px;
+}
+
+.home__section-header {
+    font-size: 42px;
+    margin: 0% 2%;
+}
+
+.home__card {
+    text-align: center;
+    padding: 3%;
+    margin: 3%;
+
+    background-color: white;
+    box-shadow: rgba(51, 46, 42, 0.25) 0px 3px 10px;
+}
+
+.home__about {
+    padding: 12% 10% 5% 10%;
+}
+
+.home__about-icon {
+    height: 85px;
+    margin: 25px 20px 30px 20px;
+}
+
+.home__about-number {
+    background: url('../resources/number01.svg');
+    background-size: 40%;
+    background-position-x: 8%;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-color: #F8F8F8;
+}
+
+.home__about-border {
+    background: url('../resources/border01.svg');
+    background-size: 50%;
+    background-position-x: 98%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+}
+
+.home__event {
+    padding: 15% 7% 8% 0%;
+}
+
+.home__event-card {
+    padding: 12%;
+    margin: 0% 0% 10% 3%;
+}
+
+.home__event-before {
+    display: none;
+}
+
+.home__event-after {
+    padding-left: 5%;
+}
+
+.home__event-number {
+    background: url('../resources/number02.svg');
+    background-size: 52%;
+    background-position-x: 78%;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+}
+
+.home__event-border {
+    background: url('../resources/border02.svg');
+    background-size: 10%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+}
+
+.home__member {
+    padding: 12% 10% 10% 10%;
+}
+
+.home__member-card {
+    cursor: pointer;
+    padding: 0;
+}
+
+.home__member-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home__member-modal {
+    text-align: center;
+    justify-items: baseline;
+    background-color: white;
+    outline: none;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    width: 60%;
+
+    padding: 3%;
+    margin-top: 8%;
+}
+
+.home__member-modal-image {
+    width: 100%;
+}
+
+.home__member-number {
+    background: url('../resources/number03.svg');
+    background-size: 48%;
+    background-position-x: 8%;
+    background-position-y: 4%;
+    background-repeat: no-repeat;
+    background-color: #F8F8F8;
+}
+
+.home__member-border {
+    background: url('../resources/border03.svg');
+    background-size: 50%;
+    background-position-x: 98%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .home__about {
+        padding: 12% 2% 5% 2%;
+    }
+
+    .home__member {
+        padding: 12% 5% 10% 5%;
+    }
+
+    .home__member-modal {
+        width: 65%;
+        height: 62%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .home__hero {
+        padding: 29% 10% 8% 10%;
+    }
+
+    .home__subtitle {
+        font-size: 32px;
+    }
+
+    .home__card {
+        padding: 6%;
+        margin: 4%;
+    }
+
+    .home__about {
+        padding: 12% 20% 8% 20%;
+    }
+
+    .home__about-number {
+        background-size: 50%;
+        background-position-x: 15%;
+        background-position-y: 6%;
+    }
+
+    .home__about-border {
+        background-size: 90%;
+        background-position-x: 180%;
+        background-position-y: 98%;
+
+        padding: 6%;
+    }
+
+    .home__event {
+        padding: 15% 0% 8% 0%;
+    }
+
+    .home__event-card {
+        padding: 15%;
+        margin: 8% 0% 10% 1%;
+    }
+
+    .home__event-before {
+        display: inline;
+    }
+
+    .home__event-after {
+        display: none;
+    }
+
+    .home__event-number {
+        background-size: 60%;
+        background-position-y: 12%;
+    }
+
+    .home__member {
+        padding: 12% 2% 10% 2%;
+    }
+
+    .home__member-card {
+        padding: 0;
+        margin: 3%;
+    }
+
+    .home__member-modal {
+        width: 70%;
+    }
+
+    .home__member-number {
+        background-size: 60%;
+        background-position-y: 2%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home__event-card {
+        padding: 15%;
+        margin: 8% 0% 15% 0%;
+    }
+
+    .home__event-number {
+        background-size: 60%;
+        background-position-y: 12%;
+    }
+
+    .home__member {
+        padding: 20% 8% 10% 8%;
+    }
+
+    .home__member-card {
+        margin: 3%;
+    }
+
+    .home__member-modal {
+        width: 55%;
+        height: 85%;
+        margin-top: 6%;
+    }
+
+    .home__member-modal-image {
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .home__hero {
+        padding: 29% 10% 12% 10%;
+    }
+
+    .home__card {
+        padding: 6%;
+        margin: 5%;
+    }
+
+    .home__about {
+        padding: 25% 5% 20% 5%;
+    }
+
+    .home__about-number {
+        background-size: 70%;
+        background-position-x: 12%;
+        background-position-y: 6%;
+    }
+
+    .home__about-border {
+        background-size: 90%;
+        background-position-x: 180%;
+        background-position-y: 99%;
+
+        padding: 5%;
+    }
+
+    .home__event {
+        padding: 30% 0% 8% 0%;
+    }
+
+    .home__event-card {
+        padding: 12%;
+        margin: 10% 0% 10% 0%;
+    }
+
+    .home__event-number {
+        background-size: 78%;
+        background-position-y: 10%;
+    }
+
+    .home__member {
+        padding: 30% 12% 10% 12%;
+    }
+
+    .home__member-card {
+        padding: 0;
+        margin: 8%;
+    }
+
+    .home__member-modal {
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+    }
+
+    .home__member-modal-image {
+        margin-bottom: 10%;
+    }
+
+    .home__member-number {
+        background-size: 78%;
+        background-position-x: 12%;
+        background-position-y: 1.25%;
+    }
+}

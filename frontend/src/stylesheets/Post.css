@@ -1,0 +1,131 @@
+.post__subheader {
+    padding-top: 2%;
+}
+
+.post__body {
+    padding: 5%;
+    padding-bottom: 8%;
+}
+
+.post__card {
+    text-align: center;
+
+    margin: 3%;
+    padding: 4% 3%;
+
+    background-color: white;
+    box-shadow: rgba(51, 46, 42, 0.25) 0px 3px 10px;
+}
+
+.post__modal {
+    text-align: center;
+    background-color: white;
+    outline: none;
+    overflow: scroll;
+
+    height: 100%;
+    width: 75%;
+    
+    padding: 2%;
+}
+
+.post__modal-line {
+    margin-top: 3%;
+}
+
+.post__modal-content {
+    margin: 0% 8%;
+}
+
+.post__button {
+    color: white;
+}
+
+.post__button:link {
+    color: white;
+}
+
+.post__button:visited {
+    color: white;
+}
+
+.post__button:hover {
+    color: white;
+}
+
+.post__button:active {
+    color: white;
+}
+
+.mode-button {
+    cursor: pointer;
+    text-align: right;
+    color: #B03E30;
+}
+
+.mode-button:hover {
+    color: #B03E30;
+}
+
+.mode-button-off {
+    color: #332E2A;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .post__subheader {
+        padding-top: 5%;
+    }
+
+    .post__body {
+        padding: 5% 0%;
+        padding-bottom: 8%;
+    }
+    
+    .post__card {    
+        margin: 4%;
+        padding: 5% 4%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .post__subheader {
+        padding-top: 8%;
+        padding-bottom: 0%;
+    }
+
+    .post__body {
+        padding: 6%;
+        padding-bottom: 15%;
+    }
+    
+    .post__card {    
+        padding: 8% 6%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .post__subheader {
+        padding-top: 12%;
+        padding-bottom: 5%;
+    }
+
+    .post__body {
+        padding-bottom: 18%;
+    }
+    
+    .post__card {   
+        margin: 6%; 
+        padding: 10% 8%;
+    }
+
+    .post__modal {
+        text-align: left;
+        width: 100%;
+        padding: 5%;
+    }
+
+    .post__modal-content {
+        margin: 0% 5%;
+    }
+}

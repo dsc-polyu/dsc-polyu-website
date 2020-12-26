@@ -1,0 +1,32 @@
+.contact {
+    width: 100%;
+}
+
+.contact__subheader {
+    text-align: right;
+    padding: 3% 8%;
+}
+
+.contact__body {
+    height: fit-content;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    padding: 3% 5%;
+
+    background-color: white;
+    box-shadow: rgba(51, 46, 42, 0.25) 0px 3px 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contact__subheader {
+        text-align: right;
+        padding: 10% 8%;
+        background-color: #F8F8F8;
+    }
+
+    .contact__body {
+        margin-top: 0%;
+        margin-bottom: 18%;
+    }
+}
